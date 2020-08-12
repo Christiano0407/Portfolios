@@ -318,9 +318,9 @@ padding: 1rem;
     width: 500px;
     height: 250px;
 }
-.portfolio-description {
+/* .portfolio-description {
    
-}
+} */
 .portfolio-description h1 {
     font-size: 3rem;
     text-transform: uppercase;
@@ -409,7 +409,7 @@ padding: 1rem;
     background-color: #e6ff04;
 }
 .contact {
-    background-color:rgba(211, 4, 253, 0.548);
+   background-color:rgba(211, 4, 253, 0.548); 
 }
 form {
     width: 70%;
@@ -443,7 +443,7 @@ input[type="submit"]:hover {
 .copyright {
     width: 100%;
     text-align: center;
-    background-color: #e6ff04;
+     background-color: #e6ff04;
     padding: 2rem 0;
     position: relative;
 }
@@ -462,4 +462,7 @@ display: flex;
     color:rgb(211, 4, 253);
     margin: auto;
 }
-
+.copyright p {
+    font-size: 1.4rem;
+    color: #fff;
+}
