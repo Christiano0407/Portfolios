@@ -13,5 +13,53 @@
     body {
         background-color: rgb(28, 1, 34);
         background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+   /*  img {
+        width: 100%;
+    } */
+    .landing-text h1 {
+        font-size: 10rem;
+    }
+    .landing-text h2 {
+        font-size: 1.7rem;
+    }
+    .nav-list {
+        flex-direction: column;
+    }
+    li {
+        margin: 2rem 0;
+    }
+    .nav-link {
+    font-size: 4.5rem;
+    }
+    .about-heading h1 {
+        font-size: 8rem;
+    }
+    .section-heading h1 {
+        font-size: 3rem;
+    }
+    .about-details .nav-list {
+        flex-direction: initial;
+    }
+    .about-details li {
+        margin: 0 .5rem;
+    }
+    .icon-container {
+        width: 7rem;
+        height: 7rem;
+    }
+    .icon-container i {
+        font-size: 4rem;
+    }
+    .timeline ul {
+        margin: 0 0 0 auto;
+    }
+    .timeline .date::before{
+        left: -20rem;
+    }
+    .timeline .date::after {
+        left: -5.9rem;
     }
 }
