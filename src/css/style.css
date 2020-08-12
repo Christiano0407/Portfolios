@@ -408,4 +408,58 @@ padding: 1rem;
     width: 1.5rem;
     background-color: #e6ff04;
 }
+.contact {
+    background-color:rgba(211, 4, 253, 0.548);
+}
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+form label {
+    font-size: 1.5rem;
+}
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 5px;
+    border: none;
+    outline-color: #e6ff04;
+}
+input[type="submit"]{
+    width: initial;
+    background-color: #e6ff04;
+    color: rgb(211, 4, 253);
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+}
+input[type="submit"]:hover {
+    color: #e6ff04;
+    background-color: rgb(211, 4, 253);
+}
+.copyright {
+    width: 100%;
+    text-align: center;
+    background-color: #e6ff04;
+    padding: 2rem 0;
+    position: relative;
+}
+.up {
+position: absolute;
+width: 5rem;
+height: 5rem;
+background-color: #eee;
+top: -2.5rem;
+right: 5rem;
+border-radius: 100%;
+display: flex;
+}
+.up i {
+    font-size: 2rem;
+    color:rgb(211, 4, 253);
+    margin: auto;
+}
 
