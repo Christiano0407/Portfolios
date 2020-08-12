@@ -38,6 +38,7 @@ p{
 }
  img {
     width: 100%;
+    border-radius: 10px;
 }
 .container {
     width: 90%;
@@ -73,9 +74,10 @@ p{
  border-radius: .8rem;
 }
 .section-heading h1::after {
-    width: 10rem;
-    height: 3px;
-    border-radius: .8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+    bottom: -1rem;
 }
 .section-heading h2 {
     font-size: 1.5rem;
@@ -261,4 +263,30 @@ padding: 1rem;
 
 .my-skills {
     margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.skill h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px 2rem 0;
+    color:#e6ff04 ;
+}
+.icon-container {
+    width: 10rem;
+    height: 10rem;
+    border: 3px solid #e6ff04;
+    background-color: rgb(211, 4, 253);
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    display: flex;
 }
