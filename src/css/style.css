@@ -315,8 +315,8 @@ padding: 1rem;
     flex: 1;
 }
 .portfolio-img img {
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 250px;
 }
 .portfolio-description {
    
@@ -350,7 +350,27 @@ padding: 1rem;
     font-size: 1.5rem;
     text-transform: uppercase;
     color: rgb(211, 4, 253);
+    transition: color 650ms;
 }
 .portfolio-description .cta:hover{
     color: #e6ff04;
+}
+.timeline ul {
+    border-left: 4px solid #e6ff04;
+    border-radius: .8rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+    position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    width: 70%;
+}
+.timeline h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    opacity: .3;
 }
