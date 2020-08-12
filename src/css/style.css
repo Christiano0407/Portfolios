@@ -289,4 +289,37 @@ padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 5px;
     display: flex;
+    transform: rotate(45deg);
+}
+.icon-container i {
+  color: #e6ff04;
+  font-size: 5rem;
+  margin: auto;
+  transform: rotate(-45deg);
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.portfolio-item:last-child{
+ margin-bottom: 0;
+}
+.profile-img {
+    flex: 1;
+}
+.portfolio-img img {
+    width: 600px;
+    height: 400px;
+}
+.portfolio-description {
+    flex: 1;
+}
+.portfolio-description h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: .3;
 }
