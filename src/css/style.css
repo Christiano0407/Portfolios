@@ -206,7 +206,7 @@ padding: 1rem;
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
-
+    color: #e6ff04;
 }
 .about .container {
     display: flex;
@@ -456,13 +456,14 @@ top: -2.5rem;
 right: 5rem;
 border-radius: 100%;
 display: flex;
+cursor: pointer;
 }
 .up i {
     font-size: 2rem;
     color:rgb(211, 4, 253);
-    margin: auto;
+    margin: auto; 
 }
 .copyright p {
-    font-size: 1.4rem;
-    color: #fff;
+    font-size: 1.8rem;
+    color:rgb(211, 4, 253);
 }
