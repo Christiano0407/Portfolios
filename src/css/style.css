@@ -148,6 +148,9 @@ border-radius: 30px;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+.nav-link:focus-within{
+    border: 5px solid yellow;
+}
 .top-nav.open {
     top: 0;
     border-radius: initial;
@@ -254,8 +257,21 @@ padding: 1rem;
  width: 250px;
  height: 200px;
 }  */
+.link-social {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2rem;
+}
+.link-social:hover,
+.link-social:focus-within {
+    color: #cddc39;
+}
 .social-media {
     margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 32px auto 0;
 }
 .social-media i {
     font-size: 5rem;
