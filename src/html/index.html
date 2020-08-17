@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <div class="menu-toggler">
+        <div class="menu-toggler" area-label="menu" area-hidden="true">
             <div class="bar half start"></div>
             <div class="bar"></div>
             <div class="bar half end"></div>
@@ -23,7 +23,7 @@
            <!--  <div class="logo">
                 <a href="#">Chris04</a>
             </div> -->
-         <ul class="nav-list">
+         <ul class="nav-list" area-hidden="true" area-label="navegation web">
             <li>
                 <a href="index.html" class="nav-link">Home</a>
             </li>
@@ -44,12 +44,12 @@
             </li>
          </ul>
         </nav>
-        <div class="landing-text">
+        <div class="landing-text" area-label="Logo Web Portfolio" area-hidden="true">
             <h1>Chris04</h1>
             <h2>Journalist | Web Developer</h2>
         </div>
     </header>
-    <main>
+    <main area-label="About Portfolio">
         <section class="about" id="about">
          <div class="container">
              <div class="profile-img">
@@ -99,7 +99,7 @@
          </div>
         </section>
         <section class="services" id="services">
-           <div class="container">
+           <div class="container" area-label="Skills" area-hidden="true">
                <div class="section-heading">
                    <h1>Services</h1>
                    <h2>What I can for You</h2>
@@ -132,7 +132,7 @@
                </div>
            </div>
         </section>
-        <section class="portfolio" id="portfolio">
+        <section class="portfolio" id="portfolio" area-hidden="true" area-label="Describe Portfolio">
           <div class="container">
              <div class="section-heading">
               <h1>Portfolio</h1>
@@ -173,7 +173,7 @@
             </div>
           </div>
         </section>
-        <section class="experience" id="experience">
+        <section class="experience" id="experience" area-label="Experience Work" area-hidden="true">
           <div class="container">
               <div class="section-heading">
                    <h1>Work Experience</h1>
@@ -182,28 +182,29 @@
               <div class="timeline">
                   <ul>
                       <li class="date" date-date="2016 - Present">
-                         <h1>Plaza Maratones</h1>
-                         <p>Plaza Maratones</p>
+                         <h1>Plaza Maratones y Day Dream</h1>
+                         <p>Inicio en emprendimiento</p>
+                         <p>Desarrollo Digital.</p>
                       </li>
                       <li class="date" date-date="2015 - 2016">
                         <h1>Plaza Maratones</h1>
-                        <p>Plaza Maratones</p>
+                        <p>Desarrollo y planeación de contenido multimedia e digital.</p>
                      </li>
                      <li class="date" date-date="2014 - 2015">
-                        <h1>Plaza Maratones</h1>
-                        <p>Plaza Maratones</p>
+                        <h1>Izzi Deportes</h1>
+                        <p>Programa "H" para hombres (deportes).</p>
                      </li>
                   </ul>
               </div>
           </div>
         </section>
-        <section class="contact" id="contact">
+        <section class="contact" id="contact" area-label="Contact" area-hidden="true">
              <div class="container">
                  <div class="section-heading">
                      <h1>Contact</h1>
                      <h2>Let´s work together</h2>
                  </div>
-                 <form action="">
+                 <form action="" area-label="formulario de contacto" area-hidden="true">
                      <label for="name">Name</label>
                      <input type="text" id="name" name="name" placeholder="Enter your Name" required>
                      <label for="email">Email</label>
@@ -222,7 +223,7 @@
              </div>
         </section>
     </main>
-    <footer class="copyright">
+    <footer class="copyright"  area-hidden="true" area-label="copyright">
        <div class="up" id="up">
            <i class="fas fa-chevron-up"></i>
         </div>
